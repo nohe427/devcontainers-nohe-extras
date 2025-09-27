@@ -1,0 +1,21 @@
+{
+    "id": "gemini-cli",
+    "version": "1.0.0",
+    "name": "Gemini CLI (via npm)",
+    "documentationURL": "http://github.com/nohe427/devcontainers-nohe-extras/tree/main/gemini",
+    "description": "The Gemini CLI (GitHub) for interacting with Gemini.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version of Gemini CLI to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-extra/features/npm-package",
+        "ghcr.io/devcontainers/features/node"
+    ]
+}
